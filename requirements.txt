@@ -1,0 +1,35 @@
+# -----------------------------
+# Core LLM + Agent Libraries
+# -----------------------------
+langgraph==0.5.4
+langgraph-sdk==0.1.74
+langsmith==0.1.147
+
+# OpenAI + LangChain OpenAI adapter (supported)
+openai==1.40.0
+langchain-openai==1.1.0
+
+
+# -----------------------------
+# Web Framework for MCP Server
+# -----------------------------
+fastapi==0.110.0
+uvicorn==0.30.1
+
+# -----------------------------
+# Utilities
+# -----------------------------
+pydantic==2.12.5
+typing-extensions==4.12.2
+orjson==3.10.6
+
+# -----------------------------
+# Database
+# -----------------------------
+# Add SQLAlchemy ONLY if you want ORM (optional)
+# SQLAlchemy==2.0.29
+
+# -----------------------------
+# Streaming / SSE Support
+# -----------------------------
+anyio==4.4.0
