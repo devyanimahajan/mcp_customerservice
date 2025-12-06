@@ -12,6 +12,7 @@ This project implements a full multi-agent customer support system using:
   - **Support Agent**
 
 This repository fulfills all assignment requirements:
+
 ✔ Multi-agent architecture  
 ✔ Full MCP server implementation  
 ✔ A2A coordination (task allocation, negotiation, multi-step)  
@@ -22,16 +23,27 @@ This repository fulfills all assignment requirements:
 
 ## Project Structure
 mcp_customerservice/
+
 │
+
 ├── agents/
+
 │ ├── router_agent.py
+
 │ ├── customer_data_agent.py
+
 │ ├── support_agent.py
+
 │
+
 ├── mcp_server.py
+
 ├── database_setup.py
+
 ├── demo.ipynb
+
 ├── requirements.txt
+
 └── README.md
 
 
@@ -66,6 +78,7 @@ The server implements:
 - /tools/list
 - /tools/call
 - Full MCP-style streaming responses
+
 Start the server
 ```bash
 python mcp_server.py
